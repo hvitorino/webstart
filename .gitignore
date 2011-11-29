@@ -8,9 +8,8 @@ obj/
 *.tmp_*
 *.Publish.xml
 *.swp
-fontes/index.html
 .project
-FotosTemp
+TesteResults
 /fontes/Testes
 packages/
 assemblies
