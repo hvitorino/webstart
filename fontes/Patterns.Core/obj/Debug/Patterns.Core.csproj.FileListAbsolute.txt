@@ -1,5 +1,0 @@
-D:\git\fortes\patterns\fontes\Patterns.Core\bin\Debug\Patterns.Core.dll
-D:\git\fortes\patterns\fontes\Patterns.Core\bin\Debug\Patterns.Core.pdb
-D:\git\fortes\patterns\fontes\Patterns.Core\obj\Debug\ResolveAssemblyReference.cache
-D:\git\fortes\patterns\fontes\Patterns.Core\obj\Debug\Patterns.Core.dll
-D:\git\fortes\patterns\fontes\Patterns.Core\obj\Debug\Patterns.Core.pdb
