@@ -9,7 +9,7 @@ obj/
 *.Publish.xml
 *.swp
 .project
-TesteResults
+TestResults
 /fontes/Testes
 packages/
 assemblies
