@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="18fb020c-3a16-40ff-8be0-01169a154a2d" name="hamonvitorino@FTSDEVIDF01 2011-11-29 17:00:18" runUser="GRUPOFORTES\hamonvitorino" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="b839902c-964f-4233-8eac-e68f78674bca">
+    <Deployment runDeploymentRoot="hamonvitorino_FTSDEVIDF01 2011-11-29 17_00_18">
+      <DeploymentItem filename="D:\git\fortes\patterns\dependencias\restfulie\Restfulie.Server.dll" />
+      <DeploymentItem filename="D:\git\fortes\patterns\fontes\Patterns.Web\bin\Patterns.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-11-29T17:00:18.0720191-03:00" queuing="2011-11-29T17:00:20.1420191-03:00" start="2011-11-29T17:00:20.2420191-03:00" finish="2011-11-29T17:00:20.7950191-03:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="FTSDEVIDF01" outcome="Warning" timestamp="2011-11-29T17:00:20.1380191-03:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Castle.DynamicProxy2' directly or indirectly referenced by the test container 'd:\git\fortes\patterns\fontes\patterns.web.testes\bin\debug\patterns.testes.dll' was not found.</Text>
+      </RunInfo>
+      <RunInfo computerName="FTSDEVIDF01" outcome="Warning" timestamp="2011-11-29T17:00:20.1380191-03:00">
+        <Text>Warning: Test Run deployment issue: The assembly or module 'Newtonsoft.Json' directly or indirectly referenced by the test container 'd:\git\fortes\patterns\fontes\patterns.web.testes\bin\debug\patterns.testes.dll' was not found.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index" storage="d:\git\fortes\patterns\fontes\patterns.web.testes\bin\debug\patterns.testes.dll" id="b5c1280a-de88-493c-0949-30d69c87dc11">
+      <Execution id="7d63e1a0-00a8-4edd-bd9e-43324d3f89f8" />
+      <TestMethod codeBase="D:/git/fortes/patterns/fontes/Patterns.Web.Testes/bin/Debug/Patterns.Testes.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Patterns.Testes.Controllers.PessoaControllerTest, Patterns.Testes, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b5c1280a-de88-493c-0949-30d69c87dc11" executionId="7d63e1a0-00a8-4edd-bd9e-43324d3f89f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7d63e1a0-00a8-4edd-bd9e-43324d3f89f8" testId="b5c1280a-de88-493c-0949-30d69c87dc11" testName="Index" computerName="FTSDEVIDF01" duration="00:00:00.1420121" startTime="2011-11-29T17:00:20.2720191-03:00" endTime="2011-11-29T17:00:20.7650191-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d63e1a0-00a8-4edd-bd9e-43324d3f89f8">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method Patterns.Testes.Controllers.PessoaControllerTest.Index threw exception: 
+System.NullReferenceException: Object reference not set to an instance of an object.</Message>
+          <StackTrace>    at Patterns.Controllers.PessoaController.Index() in D:\git\fortes\patterns\fontes\Patterns.Web\Controllers\PessoaController.cs:line 25
+   at Patterns.Testes.Controllers.PessoaControllerTest.Index() in D:\git\fortes\patterns\fontes\Patterns.Web.Testes\Controllers\PessoaControllerTest.cs:line 15
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

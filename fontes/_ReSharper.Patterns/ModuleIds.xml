@@ -1,0 +1,9 @@
+<Modules>
+  <Module PersistentId="D41419EF-875F-42BA-A5EE-9885FC96C4A6" ModuleId="Patterns" />
+  <Module PersistentId="26E380B2-D99F-40DD-8706-F6ED39E5E8DD" ModuleId="Patterns.Core" />
+  <Module PersistentId="6D34DA39-34E0-4C59-8CD3-EFFF2B6355D2" ModuleId="Patterns.Core.Testes" />
+  <Module PersistentId="CD76A95D-9F54-4472-A430-0AC4A892FE14" ModuleId="Patterns.Persistencia" />
+  <Module PersistentId="6CA53404-908D-4735-BB4B-D82BD3CDBCD0" ModuleId="Patterns.Persistencia.Testes" />
+  <Module PersistentId="NHibernate, Version=3.1.0.4000, Culture=neutral, PublicKeyToken=aa95f207798dfdb4" ModuleId="NHibernate" />
+  <Module PersistentId="16328DDB-26FE-472C-B8DF-8CAE2A0AFD69" ModuleId="Patterns.Web.Testes" />
+</Modules>

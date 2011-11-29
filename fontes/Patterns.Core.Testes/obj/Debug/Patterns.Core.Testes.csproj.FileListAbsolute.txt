@@ -1,0 +1,8 @@
+D:\git\fortes\patterns\fontes\Patterns.Core.Testes\bin\Debug\Patterns.Core.Testes.dll
+D:\git\fortes\patterns\fontes\Patterns.Core.Testes\bin\Debug\Patterns.Core.Testes.pdb
+D:\git\fortes\patterns\fontes\Patterns.Core.Testes\bin\Debug\nunit.framework.dll
+D:\git\fortes\patterns\fontes\Patterns.Core.Testes\bin\Debug\Patterns.Core.dll
+D:\git\fortes\patterns\fontes\Patterns.Core.Testes\bin\Debug\Patterns.Core.pdb
+D:\git\fortes\patterns\fontes\Patterns.Core.Testes\obj\Debug\ResolveAssemblyReference.cache
+D:\git\fortes\patterns\fontes\Patterns.Core.Testes\obj\Debug\Patterns.Core.Testes.dll
+D:\git\fortes\patterns\fontes\Patterns.Core.Testes\obj\Debug\Patterns.Core.Testes.pdb

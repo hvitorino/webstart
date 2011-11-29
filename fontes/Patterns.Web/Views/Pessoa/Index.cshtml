@@ -1,0 +1,8 @@
+﻿@using Patterns.Core
+@model IEnumerable<Pessoa>
+<ul>
+    @foreach (var pessoa in Model)
+    {
+        <li>@pessoa.Nome</li>
+    }
+</ul>
