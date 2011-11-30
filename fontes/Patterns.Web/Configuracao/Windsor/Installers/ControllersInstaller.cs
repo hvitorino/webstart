@@ -3,18 +3,18 @@ using Castle.MicroKernel.Registration;
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
 
-namespace Patterns.Configuracao.Windsor.Installers
+namespace Patterns.Web.Configuracao.Windsor.Installers
 {
     public class ControllersInstaller : IWindsorInstaller
     {
         public void Install(IWindsorContainer container, IConfigurationStore store)
         {
-            container.Register(Controllers().Configure(TransientLifeCycle()));
+            container.Register(Controllers().Configure(SingletonLifeCycle()));
         }
 
-        private static ConfigureDelegate TransientLifeCycle()
+        private static ConfigureDelegate SingletonLifeCycle()
         {
-            return register => register.LifeStyle.Transient;
+            return configure => configure.LifeStyle.Singleton;
         }
 
         private static BasedOnDescriptor Controllers()

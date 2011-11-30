@@ -2,8 +2,9 @@
 using Castle.MicroKernel.SubSystems.Configuration;
 using Castle.Windsor;
 using Patterns.Core;
+using Patterns.Persistencia.Configuracao.NHibernate;
 
-namespace Patterns.Configuracao.Windsor.Installers
+namespace Patterns.Web.Configuracao.Windsor.Installers
 {
     public class RepositoriosInstaller : IWindsorInstaller
     {
@@ -14,12 +15,12 @@ namespace Patterns.Configuracao.Windsor.Installers
 
         private ConfigureDelegate SingletonLifeCycle()
         {
-            return c => c.LifeStyle.Singleton;
+            return configure => configure.LifeStyle.Singleton;
         }
 
         private BasedOnDescriptor Repositorios()
         {
-            return AllTypes.FromThisAssembly()
+            return AllTypes.FromAssemblyContaining<FluentConfigurator>()
                 .BasedOn(typeof(IRepositorio<>))
                 .WithService
                 .AllInterfaces();

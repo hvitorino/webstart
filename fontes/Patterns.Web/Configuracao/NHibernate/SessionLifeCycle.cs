@@ -3,7 +3,7 @@ using System.Web;
 using NHibernate.Context;
 using Patterns.Persistencia.Configuracao.NHibernate;
 
-namespace Patterns.Configuracao.NHibernate
+namespace Patterns.Web.Configuracao.NHibernate
 {
     public class SessionLifeCycle : IHttpModule
     {

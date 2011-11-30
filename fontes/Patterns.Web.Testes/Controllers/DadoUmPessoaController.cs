@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using Moq;
 using NUnit.Framework;
-using Patterns.Controllers;
 using Patterns.Core;
+using Patterns.Web.Controllers;
 using Restfulie.Server.Results;
 
 namespace Patterns.Testes.Controllers
@@ -11,7 +11,7 @@ namespace Patterns.Testes.Controllers
     public class DadoUmPessoaController
     {
         [Test]
-        public void Index()
+        public void PossoListarPessoas()
         {
             var mockCadastroPessoa = new Mock<IRepositorio<Pessoa>>();
 
@@ -21,9 +21,9 @@ namespace Patterns.Testes.Controllers
 
             var repositorio = mockCadastroPessoa.Object;
             var controller = new PessoaController(repositorio);
-            var result = controller.Index();
+            var result = controller.Lista();
 
-            Assert.IsInstanceOf<RestfulieResult>(result);
+            Assert.IsInstanceOf<OK>(result);
         }
     }
 }

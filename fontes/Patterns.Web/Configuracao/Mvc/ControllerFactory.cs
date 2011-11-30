@@ -4,7 +4,7 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using Castle.MicroKernel;
 
-namespace Patterns.Configuracao.Mvc
+namespace Patterns.Web.Configuracao.Mvc
 {
     public class ControllerFactory : DefaultControllerFactory
     {

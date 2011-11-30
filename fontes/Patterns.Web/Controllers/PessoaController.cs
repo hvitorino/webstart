@@ -3,7 +3,7 @@ using Patterns.Core;
 using Restfulie.Server;
 using Restfulie.Server.Results;
 
-namespace Patterns.Controllers
+namespace Patterns.Web.Controllers
 {
     [ActAsRestfulie]
     public class PessoaController : Controller
@@ -20,7 +20,7 @@ namespace Patterns.Controllers
             todasAsPessoas = repositorioDePessoas;
         }
 
-        public ActionResult Index()
+        public ActionResult Lista()
         {
             return new OK(todasAsPessoas.Lista());
         }
