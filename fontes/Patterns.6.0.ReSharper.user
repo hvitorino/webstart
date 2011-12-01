@@ -1,24 +1,14 @@
 <Configuration>
   <RecentFiles>
     <RecentFiles>
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Views/d:Pessoa/f:Index.cshtml" caret="123" fromTop="5" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:Windsor/d:Installers/f:RepositoriosInstaller.cs" caret="766" fromTop="23" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Global.asax.cs" caret="509" fromTop="14" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:Windsor/d:Installers/f:ControllersInstaller.cs" caret="509" fromTop="14" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:NHibernate/f:SessionLifeCycle.cs" caret="255" fromTop="9" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:Mvc/f:ControllerFactory.cs" caret="587" fromTop="22" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Views/d:Pessoa/f:Lista.cshtml" caret="123" fromTop="5" />
       <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Views/f:Web.config" caret="0" fromTop="0" />
       <File id="26E380B2-D99F-40DD-8706-F6ED39E5E8DD/f:Contato.cs" caret="222" fromTop="10" />
       <File id="CD76A95D-9F54-4472-A430-0AC4A892FE14/f:TodasAsPessoas.cs" caret="99" fromTop="4" />
       <File id="26E380B2-D99F-40DD-8706-F6ED39E5E8DD/f:IComponente.cs" caret="0" fromTop="0" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Controllers/f:PessoaController.cs" caret="429" fromTop="17" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Web.config" caret="329" fromTop="9" />
-      <File id="CD76A95D-9F54-4472-A430-0AC4A892FE14/f:Repositorio.cs" caret="352" fromTop="8" />
       <File id="6CA53404-908D-4735-BB4B-D82BD3CDBCD0/f:App.config" caret="285" fromTop="6" />
       <File id="26E380B2-D99F-40DD-8706-F6ED39E5E8DD/f:Entidade.cs" caret="93" fromTop="4" />
       <File id="6CA53404-908D-4735-BB4B-D82BD3CDBCD0/f:DadoUmRepositorioDePessoas.cs" caret="1722" fromTop="24" />
-      <File id="16328DDB-26FE-472C-B8DF-8CAE2A0AFD69/d:Controllers/f:DadoUmPessoaController.cs" caret="155" fromTop="6" />
       <File id="26E380B2-D99F-40DD-8706-F6ED39E5E8DD/f:Pessoa.cs" caret="126" fromTop="5" />
       <File id="26E380B2-D99F-40DD-8706-F6ED39E5E8DD/f:Endereco.cs" caret="266" fromTop="9" />
       <File id="26E380B2-D99F-40DD-8706-F6ED39E5E8DD/f:IRepositorio.cs" caret="0" fromTop="0" />
@@ -29,27 +19,19 @@
       <File id="CD76A95D-9F54-4472-A430-0AC4A892FE14/d:Configuracao/d:Convencoes/f:SemConversoesParaEnumeracoesConvention.cs" caret="0" fromTop="0" />
       <File id="CD76A95D-9F54-4472-A430-0AC4A892FE14/d:Configuracao/d:NHibernate/f:ConnectionString.cs" caret="0" fromTop="0" />
       <File id="CD76A95D-9F54-4472-A430-0AC4A892FE14/d:Configuracao/d:NHibernate/f:FluentConfigurator.cs" caret="621" fromTop="9" />
-      <File id="CD76A95D-9F54-4472-A430-0AC4A892FE14/d:Configuracao/d:NHibernate/f:SessionProvider.cs" caret="839" fromTop="32" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Web.config" caret="1397" fromTop="18" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Global.asax" caret="62" fromTop="0" />
+      <File id="CD76A95D-9F54-4472-A430-0AC4A892FE14/f:Repositorio.cs" caret="307" fromTop="9" />
+      <File id="16328DDB-26FE-472C-B8DF-8CAE2A0AFD69/d:Controllers/f:DadoUmPessoaController.cs" caret="386" fromTop="15" />
+      <File id="CD76A95D-9F54-4472-A430-0AC4A892FE14/d:Configuracao/d:NHibernate/f:SessionProvider.cs" caret="678" fromTop="26" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:NHibernate/f:SessionLifeCycle.cs" caret="575" fromTop="24" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:Windsor/d:Installers/f:ControllersInstaller.cs" caret="588" fromTop="16" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:Windsor/d:Installers/f:RepositoriosInstaller.cs" caret="651" fromTop="19" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Global.asax.cs" caret="1142" fromTop="32" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:Mvc/f:ControllerFactory.cs" caret="522" fromTop="20" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Controllers/f:PessoaController.cs" caret="212" fromTop="8" />
     </RecentFiles>
     <RecentEdits>
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Controllers/f:PessoaController.cs" caret="0" fromTop="0" />
-      <File id="16328DDB-26FE-472C-B8DF-8CAE2A0AFD69/d:Controllers/f:DadoUmPessoaController.cs" caret="717" fromTop="27" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:Windsor/d:Installers/f:RepositoriosInstaller.cs" caret="205" fromTop="6" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Global.asax.cs" caret="394" fromTop="3" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Global.asax.cs" caret="1287" fromTop="26" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Global.asax.cs" caret="1389" fromTop="28" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Global.asax.cs" caret="944" fromTop="16" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Global.asax.cs" caret="1229" fromTop="24" />
-      <File id="16328DDB-26FE-472C-B8DF-8CAE2A0AFD69/d:Controllers/f:DadoUmPessoaController.cs" caret="257" fromTop="12" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Controllers/f:PessoaController.cs" caret="277" fromTop="10" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Controllers/f:PessoaController.cs" caret="454" fromTop="19" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Web.config" caret="1403" fromTop="23" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Web.config" caret="2154" fromTop="23" />
-      <File id="6CA53404-908D-4735-BB4B-D82BD3CDBCD0/f:DadoUmRepositorioDePessoas.cs" caret="393" fromTop="12" />
-      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Web.config" caret="329" fromTop="9" />
-      <File id="CD76A95D-9F54-4472-A430-0AC4A892FE14/d:Configuracao/d:NHibernate/f:FluentConfigurator.cs" caret="1338" fromTop="7" />
-      <File id="26E380B2-D99F-40DD-8706-F6ED39E5E8DD/f:Pessoa.cs" caret="328" fromTop="11" />
-      <File id="26E380B2-D99F-40DD-8706-F6ED39E5E8DD/f:Pessoa.cs" caret="637" fromTop="21" />
       <File id="26E380B2-D99F-40DD-8706-F6ED39E5E8DD/f:Entidade.cs" caret="93" fromTop="4" />
       <File id="26E380B2-D99F-40DD-8706-F6ED39E5E8DD/f:Pessoa.cs" caret="126" fromTop="5" />
       <File id="26E380B2-D99F-40DD-8706-F6ED39E5E8DD/f:Pessoa.cs" caret="910" fromTop="19" />
@@ -60,8 +42,25 @@
       <File id="6CA53404-908D-4735-BB4B-D82BD3CDBCD0/f:DadoUmRepositorioDePessoas.cs" caret="819" fromTop="20" />
       <File id="CD76A95D-9F54-4472-A430-0AC4A892FE14/d:Configuracao/d:NHibernate/f:SessionProvider.cs" caret="686" fromTop="26" />
       <File id="16328DDB-26FE-472C-B8DF-8CAE2A0AFD69/d:Controllers/f:DadoUmPessoaController.cs" caret="35" fromTop="1" />
-      <File id="16328DDB-26FE-472C-B8DF-8CAE2A0AFD69/d:Controllers/f:DadoUmPessoaController.cs" caret="155" fromTop="6" />
-      <File id="16328DDB-26FE-472C-B8DF-8CAE2A0AFD69/d:Controllers/f:DadoUmPessoaController.cs" caret="753" fromTop="25" />
+      <File id="16328DDB-26FE-472C-B8DF-8CAE2A0AFD69/d:Controllers/f:DadoUmPessoaController.cs" caret="159" fromTop="6" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:NHibernate/f:SessionLifeCycle.cs" caret="1068" fromTop="46" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:Mvc/f:ControllerFactory.cs" caret="1060" fromTop="33" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:Windsor/d:Installers/f:RepositoriosInstaller.cs" caret="230" fromTop="5" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:Windsor/d:Installers/f:ControllersInstaller.cs" caret="186" fromTop="5" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Controllers/f:PessoaController.cs" caret="134" fromTop="5" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Global.asax.cs" caret="1533" fromTop="46" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Global.asax" caret="62" fromTop="0" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Web.config" caret="1397" fromTop="18" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Controllers/f:PessoaController.cs" caret="544" fromTop="22" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Global.asax.cs" caret="909" fromTop="27" />
+      <File id="16328DDB-26FE-472C-B8DF-8CAE2A0AFD69/d:Controllers/f:DadoUmPessoaController.cs" caret="749" fromTop="25" />
+      <File id="16328DDB-26FE-472C-B8DF-8CAE2A0AFD69/d:Controllers/f:DadoUmPessoaController.cs" caret="324" fromTop="13" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:Windsor/d:Installers/f:RepositoriosInstaller.cs" caret="783" fromTop="23" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:Windsor/d:Installers/f:RepositoriosInstaller.cs" caret="0" fromTop="0" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:Windsor/d:Installers/f:RepositoriosInstaller.cs" caret="617" fromTop="17" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/d:Configuracao/d:Windsor/d:Installers/f:ControllersInstaller.cs" caret="589" fromTop="16" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Global.asax.cs" caret="1405" fromTop="37" />
+      <File id="D41419EF-875F-42BA-A5EE-9885FC96C4A6/f:Global.asax.cs" caret="1254" fromTop="35" />
     </RecentEdits>
   </RecentFiles>
   <NAntValidationSettings>
@@ -160,6 +159,9 @@
       <Item value="Configuracao" priority="31" />
       <Item value="SchemaExport" priority="29" />
       <Item value="true" priority="31" />
+      <Item value="IRepositorio" priority="31" />
+      <Item value="assembly" priority="31" />
+      <Item value="OK`0" priority="31" />
     </ItemStatistics>
     <ItemStatistics item="Qualified:NHibernate.ISessionFactory">
       <Item value="GetCurrentSession`0" priority="26" />
@@ -244,6 +246,18 @@
     </ItemStatistics>
     <ItemStatistics item="Qualified:NHibernate.Tool.hbm2ddl.SchemaExport">
       <Item value="Create`0" priority="26" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@Castle.MicroKernel.Registration.AllTypes">
+      <Item value="FromAssemblyContaining`1" priority="45" />
+      <Item value="FromAssembly`0" priority="45" />
+      <Item value="FromAssemblyContaining`0" priority="22" />
+      <Item value="From`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:@System.Reflection.Assembly">
+      <Item value="Load`0" priority="22" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:Castle.MicroKernel.Registration.Lifestyle.LifestyleGroup`1">
+      <Item value="Singleton" priority="22" />
     </ItemStatistics>
   </CompletionStatisticsManager>
   <UnitTestSessions>
