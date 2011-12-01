@@ -10,8 +10,8 @@ obj/
 *.swp
 .project
 TestResults
-/fontes/Testes
+fontes/Testes
 packages/
 assemblies
-Fontes/_Resharper.Patterns/
+fontes/_ReSharper.Patterns/
 fontes/Patterns.sln.docstates
