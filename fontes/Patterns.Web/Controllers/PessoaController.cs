@@ -20,6 +20,7 @@ namespace Patterns.Web.Controllers
             todasAsPessoas = repositorioDePessoas;
         }
 
+        [HttpGet]
         public ActionResult Lista()
         {
             return new OK(todasAsPessoas.Lista());
