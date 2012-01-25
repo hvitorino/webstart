@@ -29,12 +29,16 @@ namespace Patterns.Web.Configuracao.NHibernate
 
             try
             {
-                session.Flush();
-                session.Transaction.Commit();
+                if (session.Transaction.IsActive)
+                {
+                    session.Flush();
+                    session.Transaction.Commit();
+                }
             }
             catch (Exception)
             {
-                session.Transaction.Rollback();
+                if (session.Transaction.IsActive)
+                    session.Transaction.Rollback();
 
                 throw;
             }
