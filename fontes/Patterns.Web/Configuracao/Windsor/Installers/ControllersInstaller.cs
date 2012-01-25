@@ -9,12 +9,12 @@ namespace Patterns.Web.Configuracao.Windsor.Installers
     {
         public void Install(IWindsorContainer container, IConfigurationStore store)
         {
-            container.Register(Controllers().Configure(SingletonLifeCycle()));
+            container.Register(Controllers().Configure(TransientLifeCycle()));
         }
 
-        private static ConfigureDelegate SingletonLifeCycle()
+        private static ConfigureDelegate TransientLifeCycle()
         {
-            return configure => configure.LifeStyle.Singleton;
+            return configure => configure.LifeStyle.Transient;
         }
 
         private static BasedOnDescriptor Controllers()
